@@ -1,0 +1,19 @@
+body{
+    background-color: red;
+}
+
+.continer{
+    display: grid;
+}
+
+.header{
+    background-color: blue;
+}
+
+.sidebar{
+    background-color: blueviolet;
+}
+
+.main-content{
+    background-color: brown;
+}
