@@ -26,7 +26,12 @@
 img[src$=".svg"]{
     height: 20px;
     width: 20px;
-   
+       
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
     
 }
 
@@ -66,11 +71,36 @@ img[src$=".svg"]{
 
 
 
-
-
-
 .main-content{
   
     background-color: var(--secondary,rgb(233, 215, 218));
    
 }
+
+
+
+button{
+    border: none;
+    background-color: var(--button);
+    padding: 5px 15px;
+    border-radius: 100px;
+}
+
+.search{
+    border: none;
+    background-color: var(--secondary);
+    border-radius: 100px;
+}
+
+.headerUp{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px 100px;
+}
+
+.right{
+    place-self: end;
+}
+
+
+
