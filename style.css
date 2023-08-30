@@ -184,7 +184,7 @@ button{
 }
 
 .trending{
-        background-color: #1dac1d;
+      
 }
 
 .annCon{
@@ -194,6 +194,32 @@ button{
     max-width: 20vw;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
+   
+}
+
+.trenCon{
+  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   
+   
+}
+
+.trenBox{
+
+    background-color: var(--accent);
+    display: grid;
+   
+
+    
+    grid-auto-flow: column;
+    padding: 10px 20px;
+    gap:5px 20px;
+  
+}
+
+.trenBox>.avatar{
+    grid-row: 1/3;
+    grid-column: 1/ 4;
 }
 
 
