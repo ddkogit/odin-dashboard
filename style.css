@@ -50,6 +50,7 @@ img[src$=".svg"]{
     background-color: var(--accent);
     grid-column: 2/3;
     background-color: var(--primary,white);
+    padding: 10px;
    
 }
 
@@ -83,7 +84,8 @@ button{
     border: none;
     background-color: var(--button);
   
-    border-radius: 100px;
+    border-radius: 10px;
+    padding: 5px 20px;
 }
 
 .search{
@@ -127,13 +129,26 @@ button{
 
 .userInfo{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: start;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr 1fr;
+  
+    gap:10px
 }
 
 .userInfo>.avatar{
-    grid-row: 1/3;
+   grid-row: 1/3;
+   height: 3em;
+   width: 3em;
+ 
 }
 
-
+.buttons{
+   
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap:20px;
+    justify-content: end;
+    align-items: center;
+}
 
