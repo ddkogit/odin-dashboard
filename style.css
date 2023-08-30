@@ -1,5 +1,5 @@
 :root{
-
+    font-family: "Roboto", 'Times New Roman', Times, serif;
 
    --primary:#FFFFFF;
    --secondary:#67568c;
@@ -22,9 +22,20 @@
     gap:10px 0px;
 }
 
+
+.sideUp
 .logo{
+  
+    margin-top: 20px; 
     height: 30px;
     width: 30px;
+   
+}
+
+.logoname{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 img[src$=".svg"]{
