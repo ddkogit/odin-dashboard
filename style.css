@@ -1,10 +1,13 @@
 :root{
+
+
    --primary:#FFFFFF;
    --secondary:#67568c;
    --accent:#fbdd74;
    --heading:#1f1235;
    --button:#ff6e6c;
 
+   color: var(--heading);
    
    
 }
@@ -15,6 +18,18 @@
     grid-template-columns: 1fr 5fr;
 }
 
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+img[src$=".svg"]{
+    height: 20px;
+    width: 20px;
+    
+}
+
+
 .header{
     background-color: var(--accent);
     grid-column: 2/3;
@@ -22,13 +37,19 @@
    
 }
 
+
+
+
 .sidebar{
     background-color: var(--accent,blue);
-  
     grid-row: 1/3;
-    
-    
+    display: grid;
+  
 }
+
+
+
+
 
 .main-content{
   
