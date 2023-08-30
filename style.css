@@ -8,6 +8,8 @@
    --button:#ff6e6c;
 
    color: var(--heading);
+
+   background-color: var(--secondary);
    
    
 }
@@ -16,6 +18,8 @@
     height: 100vh;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
+    position: relative;
+    gap:10px 0px;
 }
 
 .logo{
@@ -51,7 +55,9 @@ img[src$=".svg"]{
     grid-column: 2/3;
     background-color: var(--primary,white);
     padding: 10px;
-   
+    /* position: absolute; */
+
+    box-shadow: 0px 0px 10px var(--heading);
 }
 
 
